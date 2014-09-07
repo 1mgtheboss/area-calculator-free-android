@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mg.areacalculatorfree"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="mg.areacalculator.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateTriangleArea"
+            android:label="@string/title_activity_calculate_triangle_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateRectangleArea"
+            android:label="@string/title_activity_calculate_rectangle_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateSquareArea"
+            android:label="@string/title_activity_calculate_square_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateParallelogramArea"
+            android:label="@string/title_activity_calculate_parallelogram_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateTrapezoidArea"
+            android:label="@string/title_activity_calculate_trapezoid_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateEllipseArea"
+            android:label="@string/title_activity_calculate_ellipse_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateCircleArea"
+            android:label="@string/title_activity_calculate_circle_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="mg.areacalculator.CalculateSectorArea"
+            android:label="@string/title_activity_calculate_sector_area"
+            android:parentActivityName="mg.areacalculator.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mg.areacalculator.MainActivity" />
+        </activity>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+
+</manifest>

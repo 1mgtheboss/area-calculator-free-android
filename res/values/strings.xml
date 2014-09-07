@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Area Calculator Free</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="blue">#00a2e8</color>
+    <color name="white">#ffffff</color>
+
+    <string name="string1">Triangle</string>
+    <string name="string2">Rectangle</string>
+    <string name="string3">Square</string>
+    <string name="string4">Parallelogram</string>
+    <string name="string5">Trapezoid/Trapezium </string>
+    <string name="string6">Ellipse</string>
+    <string name="string7">Circle</string>
+    <string name="string8">Sector</string>
+    <string name="title_activity_calculate_triangle_area">Triangle Area</string>
+    <string name="string9">Base</string>
+    <string name="string10">Height</string>
+    <string name="cA">Calculate Area</string>
+    <string name="area">Area will appear here.</string>
+    <string name="title_activity_calculate_rectangle_area">Rectangle Area</string>
+    <string name="string11">Width</string>
+    <string name="string12">Height</string>
+    <string name="title_activity_calculate_square_area">Square Area</string>
+    <string name="string13">Side</string>
+    <string name="title_activity_calculate_parallelogram_area">Parallelogram Area</string>
+    <string name="string14">Base</string>
+    <string name="string15">Height</string>
+    <string name="title_activity_calculate_trapezoid_area">Trapezoid Area</string>
+    <string name="string16">Sum of length of two parallel sides</string>
+    <string name="string17">Height</string>
+    <string name="title_activity_calculate_ellipse_area">Ellipse Area</string>
+    <string name="string18">Major axis/2</string>
+    <string name="string19">Minor axis/2</string>
+    <string name="title_activity_calculate_circle_area">Circle Area</string>
+    <string name="string20">Radius</string>
+    <string name="title_activity_calculate_sector_area">Sector Area</string>
+    <string name="string21">Radius</string>
+    <string name="string22">Angle in radians</string>
+
+</resources>
