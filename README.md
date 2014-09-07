@@ -1,4 +1,4 @@
 area-calculator-free-android
 ============================
 
-Area Calculator Free
+© 2014 Manojit Ghosh
